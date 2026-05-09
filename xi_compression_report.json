@@ -1,0 +1,142 @@
+[
+  {
+    "original_size": 417272,
+    "block_size": 4096,
+    "floor_den": 4096,
+    "sha256_original": "8c10f00d87e94b2d1a51a7bc8225a0ff927b883b9dd4b6475de7a40abffcaa2c",
+    "modes": {
+      "raw_zlib": 102,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "payload_bytes_by_mode": {
+      "raw_zlib": 27510,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "encoded_size": 28088,
+    "ratio_original_over_encoded": 14.855881515237824,
+    "zlib9_size": 12461,
+    "ratio_original_over_zlib9": 33.486237059626035,
+    "xi_vs_zlib9_delta_bytes": 15627,
+    "file": "mock_text_repeated.txt",
+    "roundtrip_ok": true,
+    "decoded_sha256": "8c10f00d87e94b2d1a51a7bc8225a0ff927b883b9dd4b6475de7a40abffcaa2c",
+    "xic_path": "/mnt/data/mock_text_repeated.txt.xic",
+    "restored_path": "/mnt/data/mock_text_repeated.txt.restored"
+  },
+  {
+    "original_size": 262144,
+    "block_size": 4096,
+    "floor_den": 4096,
+    "sha256_original": "23e38e95529e55b2ca09af323f700d1675f42a630e9ee043fae11e9ee843b8d9",
+    "modes": {
+      "raw_zlib": 0,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 64
+    },
+    "payload_bytes_by_mode": {
+      "raw_zlib": 0,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "encoded_size": 388,
+    "ratio_original_over_encoded": 675.6288659793814,
+    "zlib9_size": 34230,
+    "ratio_original_over_zlib9": 7.658311422728601,
+    "xi_vs_zlib9_delta_bytes": -33842,
+    "file": "mock_xi_native.bin",
+    "roundtrip_ok": true,
+    "decoded_sha256": "23e38e95529e55b2ca09af323f700d1675f42a630e9ee043fae11e9ee843b8d9",
+    "xic_path": "/mnt/data/mock_xi_native.bin.xic",
+    "restored_path": "/mnt/data/mock_xi_native.bin.restored"
+  },
+  {
+    "original_size": 262144,
+    "block_size": 4096,
+    "floor_den": 4096,
+    "sha256_original": "027e9b2528e7e7bedeafca40b8d5c8d07b20f473af928a263a902692d6ede631",
+    "modes": {
+      "raw_zlib": 0,
+      "xi_xor_residual_zlib": 56,
+      "xi_sub_residual_zlib": 8,
+      "xi_direct_no_payload": 0
+    },
+    "payload_bytes_by_mode": {
+      "raw_zlib": 0,
+      "xi_xor_residual_zlib": 5150,
+      "xi_sub_residual_zlib": 744,
+      "xi_direct_no_payload": 0
+    },
+    "encoded_size": 6282,
+    "ratio_original_over_encoded": 41.72938554600446,
+    "zlib9_size": 34727,
+    "ratio_original_over_zlib9": 7.548708497710715,
+    "xi_vs_zlib9_delta_bytes": -28445,
+    "file": "mock_xi_sparse_residual.bin",
+    "roundtrip_ok": true,
+    "decoded_sha256": "027e9b2528e7e7bedeafca40b8d5c8d07b20f473af928a263a902692d6ede631",
+    "xic_path": "/mnt/data/mock_xi_sparse_residual.bin.xic",
+    "restored_path": "/mnt/data/mock_xi_sparse_residual.bin.restored"
+  },
+  {
+    "original_size": 691276,
+    "block_size": 4096,
+    "floor_den": 4096,
+    "sha256_original": "bbd6ca63519764e690d1e7595b1c0ee76c4a976aff3829b07336344bfd47522c",
+    "modes": {
+      "raw_zlib": 169,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "payload_bytes_by_mode": {
+      "raw_zlib": 621387,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "encoded_size": 622300,
+    "ratio_original_over_encoded": 1.1108404306604531,
+    "zlib9_size": 597455,
+    "ratio_original_over_zlib9": 1.1570344210024186,
+    "xi_vs_zlib9_delta_bytes": 24845,
+    "file": "Unified_Quintic.pdf",
+    "roundtrip_ok": true,
+    "decoded_sha256": "bbd6ca63519764e690d1e7595b1c0ee76c4a976aff3829b07336344bfd47522c",
+    "xic_path": "/mnt/data/Unified_Quintic.pdf.xic",
+    "restored_path": "/mnt/data/Unified_Quintic.pdf.restored"
+  },
+  {
+    "original_size": 7449778,
+    "block_size": 4096,
+    "floor_den": 4096,
+    "sha256_original": "4af1376995f08447c059d6801096a79cb73132e131dfc15d2e7d19d15498e8e3",
+    "modes": {
+      "raw_zlib": 1819,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "payload_bytes_by_mode": {
+      "raw_zlib": 2746541,
+      "xi_xor_residual_zlib": 0,
+      "xi_sub_residual_zlib": 0,
+      "xi_direct_no_payload": 0
+    },
+    "encoded_size": 2755704,
+    "ratio_original_over_encoded": 2.7034028328151356,
+    "zlib9_size": 2641439,
+    "ratio_original_over_zlib9": 2.8203483025729534,
+    "xi_vs_zlib9_delta_bytes": 114265,
+    "file": "lean4_theorem_proving.pdf",
+    "roundtrip_ok": true,
+    "decoded_sha256": "4af1376995f08447c059d6801096a79cb73132e131dfc15d2e7d19d15498e8e3",
+    "xic_path": "/mnt/data/lean4_theorem_proving.pdf.xic",
+    "restored_path": "/mnt/data/lean4_theorem_proving.pdf.restored"
+  }
+]
